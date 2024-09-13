@@ -1,0 +1,4 @@
+1.
+input_string = input("write true or false: ")
+if(input_string == "true"):
+    print("whoala")
