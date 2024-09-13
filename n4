@@ -1,0 +1,11 @@
+4.
+speed = int(input("write car's speed: "))
+
+if(speed < 30):
+    print("Category - Slow")
+if(speed > 30 and speed < 60):
+    print("Category - Moderate")
+if(speed > 60 and speed < 120):
+    print("Category - Fast")
+if(speed > 120):
+    print("Category - Very Fast")
